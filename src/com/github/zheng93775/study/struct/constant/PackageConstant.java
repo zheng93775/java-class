@@ -1,17 +1,18 @@
 package com.github.zheng93775.study.struct.constant;
 
+import com.github.zheng93775.study.struct.common.Byte2;
 import com.github.zheng93775.study.struct.constant.base.Constant;
 import com.github.zheng93775.study.struct.constant.base.ConstantTagEnum;
 
-public class FloatConstant extends Constant {
+public class PackageConstant extends Constant {
     /**
      * (1字节) 常量类型标志
      * @see ConstantTagEnum
      */
-    public byte tag = ConstantTagEnum.Float.value;
+    public byte tag = ConstantTagEnum.Package.value;
 
     /**
-     * (4字节) 按照高位在前存储的float值
+     * (2字节) 指向包名 Utf8字符串常量 的索引
      */
-    public int value;
+    public Byte2<Utf8Constant> nameIndex;
 }

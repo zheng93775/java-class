@@ -1,6 +1,8 @@
 package com.github.zheng93775.study.struct.constant;
 
-import com.github.zheng93775.study.struct.base.Byte2;
+import com.github.zheng93775.study.struct.common.Byte2;
+import com.github.zheng93775.study.struct.constant.base.Constant;
+import com.github.zheng93775.study.struct.constant.base.ConstantTagEnum;
 
 public class FieldRefConstant extends Constant {
     /**

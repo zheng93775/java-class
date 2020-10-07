@@ -1,6 +1,6 @@
 package com.github.zheng93775.study.struct;
 
-import com.github.zheng93775.study.struct.constant.Constant;
+import com.github.zheng93775.study.struct.constant.base.Constant;
 
 /**
  * 常量池

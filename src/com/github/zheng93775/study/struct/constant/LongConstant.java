@@ -1,5 +1,8 @@
 package com.github.zheng93775.study.struct.constant;
 
+import com.github.zheng93775.study.struct.constant.base.Constant;
+import com.github.zheng93775.study.struct.constant.base.ConstantTagEnum;
+
 public class LongConstant extends Constant {
     /**
      * (1字节) 常量类型标志

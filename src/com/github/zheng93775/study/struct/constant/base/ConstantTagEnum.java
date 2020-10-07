@@ -1,4 +1,4 @@
-package com.github.zheng93775.study.struct.constant;
+package com.github.zheng93775.study.struct.constant.base;
 
 /**
  * 常量类型枚举
