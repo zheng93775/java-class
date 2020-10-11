@@ -1,10 +1,11 @@
 package com.github.zheng93775.study;
 
+import com.github.zheng93775.study.desc.ClassAccessFlagEnum;
 import com.github.zheng93775.study.struct.*;
 
 public class ClassStruct {
     /**
-     * 魔数与Class文件的版本
+     * (8字节) 魔数与Class文件的版本
      */
     public HeadStruct headStruct;
 
@@ -14,15 +15,15 @@ public class ClassStruct {
     public ConstantPoolStruct constantPoolStruct;
 
     /**
-     * 访问标志
-     * 2字节
+     * (2字节) 访问标志
+     * @see ClassAccessFlagEnum
      */
-    public AccessFlagStruct accessFlagStruct;
+    public short accessFlags;
 
     /**
      * 类索引、父类索引、接口索引集合
      */
-    public IndexStruct indexStruct;
+    public TypeStruct typeStruct;
 
     /**
      * 字段表集合

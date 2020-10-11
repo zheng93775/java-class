@@ -1,6 +1,6 @@
 package com.github.zheng93775.study.struct;
 
-import com.github.zheng93775.study.desc.MajorVersionMapping;
+import com.github.zheng93775.study.desc.MajorVersionEnum;
 
 public class HeadStruct {
     /**
@@ -16,7 +16,7 @@ public class HeadStruct {
 
     /**
      * (2字节) 主版本号
-     * @see MajorVersionMapping
+     * @see MajorVersionEnum
      */
     public short majorVersion;
 }
