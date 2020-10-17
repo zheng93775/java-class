@@ -28,7 +28,7 @@ public class ClassStruct {
     /**
      * 字段表集合
      */
-    public FieldStruct fieldStruct;
+    public FieldsStruct fieldsStruct;
 
     /**
      * 方法表集合
